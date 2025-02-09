@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.structurizr",
+    "module": "structurizr-graphviz",
+    "version": "2.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-export",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-graphviz-2.0.0.jar",
+          "url": "structurizr-graphviz-2.0.0.jar",
+          "size": 15451,
+          "sha512": "56474212ca53954a0a7f7fba764de046b101ad5fd8fe7c4cd4bea29d23dc468f39ada839eb70b70f0494f5c805fc997c2da851bc93ebc45dd827e677bb39700e",
+          "sha256": "f5c07f99ea39ef78eff43f86cc1ca7be81c665cf438303f164783c9b1b2731e2",
+          "sha1": "539902411f4f7f78ed11b28066346e9bf7eb124e",
+          "md5": "73ac125587d834e68c96bcf6b57d7482"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-export",
+          "version": {
+            "requires": "1.14.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-graphviz-2.0.0.jar",
+          "url": "structurizr-graphviz-2.0.0.jar",
+          "size": 15451,
+          "sha512": "56474212ca53954a0a7f7fba764de046b101ad5fd8fe7c4cd4bea29d23dc468f39ada839eb70b70f0494f5c805fc997c2da851bc93ebc45dd827e677bb39700e",
+          "sha256": "f5c07f99ea39ef78eff43f86cc1ca7be81c665cf438303f164783c9b1b2731e2",
+          "sha1": "539902411f4f7f78ed11b28066346e9bf7eb124e",
+          "md5": "73ac125587d834e68c96bcf6b57d7482"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-graphviz-2.0.0-javadoc.jar",
+          "url": "structurizr-graphviz-2.0.0-javadoc.jar",
+          "size": 80365,
+          "sha512": "52f38c9df0c7afbc43285027d6628174c33b847eb3b43b89df76e6c63d2ee11c279e52f20c2fd72abcb2d2d5aec092a17872fb0e10127426f1473812a9b6ed60",
+          "sha256": "4e9b5fce990309ed16d2cc34cb67582323d966b6938821a94c9f35f883a499a6",
+          "sha1": "362af69321790d0a0d4f3be5a207ab0340bcb7a6",
+          "md5": "e13f8bae10f55bd1c6092942b2a5fd89"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-graphviz-2.0.0-sources.jar",
+          "url": "structurizr-graphviz-2.0.0-sources.jar",
+          "size": 9208,
+          "sha512": "102959814a8398743e8331078dd879d4a79e175eb68b8b01d623ad329174eb399bb33b496b7a51640c20e3f10c2341f4ae9a3f2913598faaa8bdf48d917964bb",
+          "sha256": "f8fdb9c7473f197303e9075be6c6d4948253a3f01bf5f7656f2a6e2ad2d168f6",
+          "sha1": "45560f6b70d11505166ee715de1bd4e497acd53e",
+          "md5": "2057f22a3c2c7efe84d54cc07e1585b2"
+        }
+      ]
+    }
+  ]
+}

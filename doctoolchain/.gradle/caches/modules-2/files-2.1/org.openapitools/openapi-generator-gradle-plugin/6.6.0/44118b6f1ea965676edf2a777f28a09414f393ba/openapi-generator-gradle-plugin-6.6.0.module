@@ -1,0 +1,131 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.openapitools",
+    "module": "openapi-generator-gradle-plugin",
+    "version": "6.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "openapi-generator-gradle-plugin-6.6.0.jar",
+          "url": "openapi-generator-gradle-plugin-6.6.0.jar",
+          "size": 98301,
+          "sha512": "f64d9493b9401538eed97f14ec5136e3bdb9891bcf11f0947d4c053bc78193edf4892d48f31523f4630f637dc03c3d1869894bbe2b4f5c07775403ea73dac84f",
+          "sha256": "1121408bb6fa19f3e031308b274227b74420e05bd760283a6dce02399c800bbd",
+          "sha1": "224f05f6d10914b326b9d231fc4b8490de7c7d21",
+          "md5": "5945d80985e497a0936da1d8588d6d98"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.openapitools",
+          "module": "openapi-generator",
+          "version": {
+            "requires": "6.6.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "openapi-generator-gradle-plugin-6.6.0.jar",
+          "url": "openapi-generator-gradle-plugin-6.6.0.jar",
+          "size": 98301,
+          "sha512": "f64d9493b9401538eed97f14ec5136e3bdb9891bcf11f0947d4c053bc78193edf4892d48f31523f4630f637dc03c3d1869894bbe2b4f5c07775403ea73dac84f",
+          "sha256": "1121408bb6fa19f3e031308b274227b74420e05bd760283a6dce02399c800bbd",
+          "sha1": "224f05f6d10914b326b9d231fc4b8490de7c7d21",
+          "md5": "5945d80985e497a0936da1d8588d6d98"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openapi-generator-gradle-plugin-6.6.0-sources.jar",
+          "url": "openapi-generator-gradle-plugin-6.6.0-sources.jar",
+          "size": 20533,
+          "sha512": "8a343901198a233bc24767de0a852d01d20cb105582df9f4e93911a4b008e8207fb646df472baeb4d7318fe4d34516996bfa39eba96340038df2f069c403a5c5",
+          "sha256": "ef7680d35cca397f3740832f04697f340a04ad1aab790c10f73dce2d693db4b5",
+          "sha1": "4a090f38165047ab3a87300a0a05fc496c2a4470",
+          "md5": "bccf8be30a498e5ed5e0bc600e1799ae"
+        },
+        {
+          "name": "openapi-generator-gradle-plugin-6.6.0-sources.jar",
+          "url": "openapi-generator-gradle-plugin-6.6.0-sources.jar",
+          "size": 20533,
+          "sha512": "8a343901198a233bc24767de0a852d01d20cb105582df9f4e93911a4b008e8207fb646df472baeb4d7318fe4d34516996bfa39eba96340038df2f069c403a5c5",
+          "sha256": "ef7680d35cca397f3740832f04697f340a04ad1aab790c10f73dce2d693db4b5",
+          "sha1": "4a090f38165047ab3a87300a0a05fc496c2a4470",
+          "md5": "bccf8be30a498e5ed5e0bc600e1799ae"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "openapi-generator-gradle-plugin-6.6.0-javadoc.jar",
+          "url": "openapi-generator-gradle-plugin-6.6.0-javadoc.jar",
+          "size": 261,
+          "sha512": "70304b4ef65b924b5711f35442b779d273a58ddc86d2055652b8feaac9345555f51b9d0a129eb301ae46578b314ce4d430c6783464c2150fef7940a81ea1d6ae",
+          "sha256": "67edc9522ffe9b98d8365bf6d016fa5c837f3106a5b39149658a05775827fb95",
+          "sha1": "b34758046e08deeb9988c438d88d1850d81e6a3f",
+          "md5": "62724a8624ff24917c168fc3149daee6"
+        },
+        {
+          "name": "openapi-generator-gradle-plugin-6.6.0-javadoc.jar",
+          "url": "openapi-generator-gradle-plugin-6.6.0-javadoc.jar",
+          "size": 261,
+          "sha512": "70304b4ef65b924b5711f35442b779d273a58ddc86d2055652b8feaac9345555f51b9d0a129eb301ae46578b314ce4d430c6783464c2150fef7940a81ea1d6ae",
+          "sha256": "67edc9522ffe9b98d8365bf6d016fa5c837f3106a5b39149658a05775827fb95",
+          "sha1": "b34758046e08deeb9988c438d88d1850d81e6a3f",
+          "md5": "62724a8624ff24917c168fc3149daee6"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,329 @@
+2025-02-09T21:28:58.250+0100 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonMain] Assuming the daemon was started with following jvm opts: [--add-opens=java.base/java.util=ALL-UNNAMED, --add-opens=java.base/java.lang=ALL-UNNAMED, --add-opens=java.base/java.lang.invoke=ALL-UNNAMED, --add-opens=java.prefs/java.util.prefs=ALL-UNNAMED, --add-opens=java.base/java.nio.charset=ALL-UNNAMED, --add-opens=java.base/java.net=ALL-UNNAMED, --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED, -Xmx2048m, -Dfile.encoding=UTF-8, -Duser.country=DE, -Duser.language=de, -Duser.variant]
+2025-02-09T21:28:58.680+0100 [INFO] [org.gradle.launcher.daemon.server.Daemon] start() called on daemon - DefaultDaemonContext[uid=959fd5fc-d588-45df-b0b5-c96a37787e6e,javaHome=/home/joerg/.sdkman/candidates/java/11.0.26-tem,daemonRegistryDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/daemon,pid=3850,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=DE,-Duser.language=de,-Duser.variant]
+2025-02-09T21:28:58.753+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface enp0s3
+2025-02-09T21:28:58.754+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? false
+2025-02-09T21:28:58.755+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /fe80:0:0:0:4952:4f03:babf:c6be%enp0s3
+2025-02-09T21:28:58.756+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding remote address /10.0.2.15
+2025-02-09T21:28:58.756+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding IP addresses for network interface lo
+2025-02-09T21:28:58.759+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Is this a loopback interface? true
+2025-02-09T21:28:58.759+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /0:0:0:0:0:0:0:1%lo
+2025-02-09T21:28:58.760+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.InetAddresses] Adding loopback address /127.0.0.1
+2025-02-09T21:28:58.767+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Listening on [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]].
+2025-02-09T21:28:58.823+0100 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] Daemon starting at: Sun Feb 09 21:28:58 CET 2025, with address: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:28:58.824+0100 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertising the daemon address to the clients: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:28:58.825+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Advertised daemon context: DefaultDaemonContext[uid=959fd5fc-d588-45df-b0b5-c96a37787e6e,javaHome=/home/joerg/.sdkman/candidates/java/11.0.26-tem,daemonRegistryDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/daemon,pid=3850,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=DE,-Duser.language=de,-Duser.variant]
+2025-02-09T21:28:58.828+0100 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Storing daemon address: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]], context: DefaultDaemonContext[uid=959fd5fc-d588-45df-b0b5-c96a37787e6e,javaHome=/home/joerg/.sdkman/candidates/java/11.0.26-tem,daemonRegistryDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/daemon,pid=3850,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=DE,-Duser.language=de,-Duser.variant]
+2025-02-09T21:28:58.850+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2025-02-09T21:28:58.861+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2025-02-09T21:28:58.872+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2025-02-09T21:28:58.873+0100 [LIFECYCLE] [org.gradle.launcher.daemon.server.Daemon] Daemon server started.
+2025-02-09T21:28:58.877+0100 [DEBUG] [org.gradle.launcher.daemon.bootstrap.DaemonStartupCommunication] Completed writing the daemon greeting. Closing streams...
+2025-02-09T21:28:58.890+0100 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stopOnExpiration() called on daemon
+2025-02-09T21:28:58.894+0100 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] awaitExpiration() called on daemon
+2025-02-09T21:28:58.911+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2025-02-09T21:28:58.962+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.TcpIncomingConnector] Accepted connection from /127.0.0.1:58824 to /127.0.0.1:33087.
+2025-02-09T21:28:59.087+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.Build
+2025-02-09T21:28:59.088+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received non-IO message from client: Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}
+2025-02-09T21:28:59.089+0100 [INFO] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received command: Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}.
+2025-02-09T21:28:59.090+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Starting executing command: Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1} with connection: socket connection from /127.0.0.1:33087 to /127.0.0.1:58824.
+2025-02-09T21:28:59.101+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: started DaemonCommandExecution[command = Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:33087 to /127.0.0.1:58824] after 0.0 minutes of idle
+2025-02-09T21:28:59.102+0100 [INFO] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Marking the daemon as busy, address: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:28:59.102+0100 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Marking busy by address: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:28:59.104+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2025-02-09T21:28:59.105+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2025-02-09T21:28:59.107+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2025-02-09T21:28:59.108+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2025-02-09T21:28:59.109+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon is running. Sleeping until state changes.
+2025-02-09T21:28:59.112+0100 [INFO] [org.gradle.launcher.daemon.server.exec.StartBuildOrRespondWithBusy] Daemon is about to start building Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}. Dispatching build started information...
+2025-02-09T21:28:59.113+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 19: dispatching org.gradle.launcher.daemon.protocol.BuildStarted@42170260
+2025-02-09T21:28:59.122+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.EstablishBuildEnvironment] Configuring env variables: [PATH, XAUTHORITY, DTC_HEADLESS, XDG_DATA_DIRS, GDMSESSION, DBUS_SESSION_BUS_ADDRESS, XDG_CURRENT_DESKTOP, SSH_AGENT_PID, CLUTTER_BACKEND, COLORTERM, SDKMAN_DIR, SESSION_MANAGER, LOGNAME, PWD, DTC_PROJECT_BRANCH, LANGUAGE, WINDOWID, SHELL, LESSOPEN, SDKMAN_CANDIDATES_API, OLDPWD, GTK_MODULES, XDG_SESSION_PATH, PANEL_GDK_CORE_DEVICE_EVENTS, LS_COLORS, XDG_SESSION_DESKTOP, SHLVL, LESSCLOSE, COMPIZ_CONFIG_PROFILE, JAVA_HOME, TERM, XDG_CONFIG_DIRS, LANG, XDG_SEAT_PATH, XDG_SESSION_ID, XDG_SESSION_TYPE, DISPLAY, SDKMAN_CANDIDATES_DIR, XDG_SESSION_CLASS, _, GDM_LANG, GTK3_MODULES, XDG_GREETER_DATA_DIR, DESKTOP_SESSION, SDKMAN_PLATFORM, USER, XDG_MENU_PREFIX, VTE_VERSION, QT_ACCESSIBILITY, SSH_AUTH_SOCK, XDG_SEAT, XDG_VTNR, XDG_RUNTIME_DIR, HOME]
+2025-02-09T21:28:59.141+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.LogToClient] About to start relaying all logs to the client via the connection.
+2025-02-09T21:28:59.142+0100 [INFO] [org.gradle.launcher.daemon.server.exec.LogToClient] The client will now receive all logging from the daemon (pid: 3850). The daemon log file: /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/daemon/8.1.1/daemon-3850.out.log
+2025-02-09T21:28:59.161+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.RequestStopIfSingleUsedDaemon] Requesting daemon stop after processing Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}
+2025-02-09T21:28:59.162+0100 [LIFECYCLE] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Daemon will be stopped at the end of the build 
+2025-02-09T21:28:59.163+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Stop as soon as idle requested. The daemon is busy: true
+2025-02-09T21:28:59.163+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2025-02-09T21:28:59.167+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has started executing the build.
+2025-02-09T21:28:59.169+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] Executing build with daemon context: DefaultDaemonContext[uid=959fd5fc-d588-45df-b0b5-c96a37787e6e,javaHome=/home/joerg/.sdkman/candidates/java/11.0.26-tem,daemonRegistryDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/daemon,pid=3850,idleTimeout=120000,priority=NORMAL,applyInstrumentationAgent=true,daemonOpts=--add-opens=java.base/java.util=ALL-UNNAMED,--add-opens=java.base/java.lang=ALL-UNNAMED,--add-opens=java.base/java.lang.invoke=ALL-UNNAMED,--add-opens=java.prefs/java.util.prefs=ALL-UNNAMED,--add-opens=java.base/java.nio.charset=ALL-UNNAMED,--add-opens=java.base/java.net=ALL-UNNAMED,--add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED,-Xmx2048m,-Dfile.encoding=UTF-8,-Duser.country=DE,-Duser.language=de,-Duser.variant]
+Using 3 worker leases.
+Received JVM installation metadata from '/home/joerg/.sdkman/candidates/java/11.0.26-tem': {JAVA_HOME=/home/joerg/.sdkman/candidates/java/11.0.26-tem, JAVA_VERSION=11.0.26, JAVA_VENDOR=Eclipse Adoptium, RUNTIME_NAME=OpenJDK Runtime Environment, RUNTIME_VERSION=11.0.26+4, VM_NAME=OpenJDK 64-Bit Server VM, VM_VERSION=11.0.26+4, VM_VENDOR=Eclipse Adoptium, OS_ARCH=amd64}
+Watching the file system is configured to be enabled if available
+File system watching is disabled because --project-cache-dir is specified
+File system watching is inactive
+Starting Build
+Settings evaluated using settings file '/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/settings.gradle'.
+Generation of dependency accessors for libs is not up-to-date because:
+  No history is available.
+Projects loaded. Root project using build file '/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/build.gradle'.
+Included projects: [root project 'docToolchain']
+Evaluating root project 'docToolchain' using build file '/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/build.gradle'.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration2 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration2 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration2 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration2 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration3 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration3 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration3 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration3 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration4 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration4 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration4 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration4 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration5 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration5 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration detachedConfiguration5 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration detachedConfiguration5 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+>>>>>>>>> fix grolifant
+>>>>>>>>> fix okhttp-digest
+docToolchain> docDir: /home/joerg/IdeaProjects/selfcontained-doctoolchain
+docToolchain> mainConfigFile: docToolchainConfig.groovy
+docToolchain> projectDir: /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1
+docToolchain> config: [outputPath:build, inputPath:src/docs, inputFiles:[[file:arc42/arc42.adoc, formats:[html, pdf]]], imageDirs:[images/., images/.], failOnMissingImages:true, taskInputsDirs:[src/docs], taskInputsFiles:[], customTasks:[], microsite:[contextPath:/, siteFolder:../site, title:docToolchain, footerMail:##footer-email##, footerTwitter:##twitter-url##, footerSO:##Stackoverflow-url##, footerGithub:##Github-url##, footerSlack:##Slack-url##, footerText:<small class="text-white">built with <a href="https://doctoolchain.org">docToolchain</a> and <a href="https://jbake.org">jBake</a> <br /> theme: <a href="https://www.docsy.dev/">docsy</a></small>, issueUrl:##issue-url##, branch:main, gitRepoUrl:##git-repo-url##, landingPage:landingpage.gsp, menu:[:], additionalConverters:[]], exportChangelog:[:], changelog:[dir:src/docs, cmd:git log --pretty=format:%x7c%x20%ad%x20%n%x7c%x20%an%x20%n%x7c%x20%s%x20%n --date=short], confluence:[input:[[file:build/html5/arc42-template-de.html]], api:https://[yourServer]/[context], rateLimit:10, spaceKey:asciidoc, subpagesForSections:1, pagePrefix:, pageSuffix:, pageVersionComment:, extraPageContent:, enableAttachments:false, pageLimit:100, export:[srcDir:sample_data, destDir:src/docs]], exportEA:[:], htmlSanityCheck:[:], jira:[api:https://your-jira-instance, rateLimit:10, project:PROJECTKEY, dateTimeFormatParse:yyyy-MM-dd'T'H:m:s.SSSz, dateTimeFormatOutput:dd.MM.yyyy HH:mm:ss z, resultsFilename:JiraTicketsContent, label:JiraTicketsContent, saveAsciidoc:true, saveExcel:true, resultsFolder:JiraRequests, exports:[[filename:File1_Done_issues, jql:project='%jiraProject%' AND status='Done' ORDER BY duedate ASC, customfields:[customfield_10026:Story Points]], [filename:CurrentSprint, jql:project='%jiraProject%' AND Sprint in openSprints() ORDER BY priority DESC, duedate ASC, customfields:[customfield_10026:Story Points]]]], openApi:[specFile:src/docs/petstore-v2.0.yaml, infoUrl:https://my-api.company.com, infoEmail:info@company.com], sprintChangelog:[sprintState:closed, ticketStatus:Done, Closed, showAssignee:false, showTicketStatus:false, showTicketType:true, sprintBoardId:12345, resultsFolder:Sprints, sprintName:PRJ Sprint 1, allSprintsFilename:Sprints_Changelogs], collectIncludes:[fileFilter:adoc, minPrefixLength:3, maxPrefixLength:3, separatorChar:_, cleanOutputFolder:true, excludeDirectories:[]], structurizr:[workspace:Script_55c078c325afc1f8e7373108ce02171f$_run_closure10$_closure12@25defa90, export:Script_55c078c325afc1f8e7373108ce02171f$_run_closure10$_closure13@1a0dbe25], openAI:[:], docDir:/home/joerg/IdeaProjects/selfcontained-doctoolchain, mainConfigFile:docToolchainConfig.groovy]
+docToolchain> pdfThemeDir: 
+docToolchain> inputPath: src/docs
+docToolchain> Use Antora integration: false
+
+Gradle project Properties [2]:
+[mainConfigFile:docToolchainConfig.groovy, docDir:/home/joerg/IdeaProjects/selfcontained-doctoolchain]
+==============================
+Found passed Jira credentials
+docToolchain> referenceDocFile: 
+
+==================
+Parsed config file has 71 entries
+
+Found config -> 'outputPath': 'build'
+Found config -> 'inputPath': 'src/docs'
+Found config -> 'inputFiles': '[[file:arc42/arc42.adoc, formats:[html, pdf]]]'
+Found config -> 'imageDirs': '[images/., images/.]'
+Found config -> 'failOnMissingImages': 'true'
+Found config -> 'taskInputsDirs': '[src/docs]'
+Found config -> 'taskInputsFiles': '[]'
+Found config -> 'customTasks': '[]'
+Found config -> 'microsite.contextPath': '/'
+Found config -> 'microsite.siteFolder': '../site'
+Found config -> 'microsite.title': 'docToolchain'
+Found config -> 'microsite.footerMail': '##footer-email##'
+Found config -> 'microsite.footerTwitter': '##twitter-url##'
+Found config -> 'microsite.footerSO': '##Stackoverflow-url##'
+Found config -> 'microsite.footerGithub': '##Github-url##'
+Found config -> 'microsite.footerSlack': '##Slack-url##'
+Found config -> 'microsite.footerText': '<small class="text-white">built with <a href="https://doctoolchain.org">docToolchain</a> and <a href="https://jbake.org">jBake</a> <br /> theme: <a href="https://www.docsy.dev/">docsy</a></small>'
+Found config -> 'microsite.issueUrl': '##issue-url##'
+Found config -> 'microsite.branch': 'main'
+Found config -> 'microsite.gitRepoUrl': '##git-repo-url##'
+Found config -> 'microsite.landingPage': 'landingpage.gsp'
+Found config -> 'microsite.additionalConverters': '[]'
+Found config -> 'changelog.dir': 'src/docs'
+Found config -> 'changelog.cmd': 'git log --pretty=format:%x7c%x20%ad%x20%n%x7c%x20%an%x20%n%x7c%x20%s%x20%n --date=short'
+Found config -> 'confluence.input': '[[file:build/html5/arc42-template-de.html]]'
+Found config -> 'confluence.api': 'https://[yourServer]/[context]'
+Found config -> 'confluence.rateLimit': '10'
+Found config -> 'confluence.spaceKey': 'asciidoc'
+Found config -> 'confluence.subpagesForSections': '1'
+Found config -> 'confluence.pagePrefix': ''
+Found config -> 'confluence.pageSuffix': ''
+Found config -> 'confluence.pageVersionComment': ''
+Found config -> 'confluence.extraPageContent': ''
+Found config -> 'confluence.enableAttachments': 'false'
+Found config -> 'confluence.pageLimit': '100'
+Found config -> 'confluence.export.srcDir': 'sample_data'
+Found config -> 'confluence.export.destDir': 'src/docs'
+Found config -> 'jira.api': 'https://your-jira-instance'
+Found config -> 'jira.rateLimit': '10'
+Found config -> 'jira.project': 'PROJECTKEY'
+Found config -> 'jira.dateTimeFormatParse': 'yyyy-MM-dd'T'H:m:s.SSSz'
+Found config -> 'jira.dateTimeFormatOutput': 'dd.MM.yyyy HH:mm:ss z'
+Found config -> 'jira.resultsFilename': 'JiraTicketsContent'
+Found config -> 'jira.label': 'JiraTicketsContent'
+Found config -> 'jira.saveAsciidoc': 'true'
+Found config -> 'jira.saveExcel': 'true'
+Found config -> 'jira.resultsFolder': 'JiraRequests'
+Found config -> 'jira.exports': '[[filename:File1_Done_issues, jql:project='%jiraProject%' AND status='Done' ORDER BY duedate ASC, customfields:[customfield_10026:Story Points]], [filename:CurrentSprint, jql:project='%jiraProject%' AND Sprint in openSprints() ORDER BY priority DESC, duedate ASC, customfields:[customfield_10026:Story Points]]]'
+Found config -> 'jira.credentials': '********'
+Found config -> 'openApi.specFile': 'src/docs/petstore-v2.0.yaml'
+Found config -> 'openApi.infoUrl': 'https://my-api.company.com'
+Found config -> 'openApi.infoEmail': 'info@company.com'
+Found config -> 'sprintChangelog.sprintState': 'closed'
+Found config -> 'sprintChangelog.ticketStatus': 'Done, Closed'
+Found config -> 'sprintChangelog.showAssignee': 'false'
+Found config -> 'sprintChangelog.showTicketStatus': 'false'
+Found config -> 'sprintChangelog.showTicketType': 'true'
+Found config -> 'sprintChangelog.sprintBoardId': '12345'
+Found config -> 'sprintChangelog.resultsFolder': 'Sprints'
+Found config -> 'sprintChangelog.sprintName': 'PRJ Sprint 1'
+Found config -> 'sprintChangelog.allSprintsFilename': 'Sprints_Changelogs'
+Found config -> 'collectIncludes.fileFilter': 'adoc'
+Found config -> 'collectIncludes.minPrefixLength': '3'
+Found config -> 'collectIncludes.maxPrefixLength': '3'
+Found config -> 'collectIncludes.separatorChar': '_'
+Found config -> 'collectIncludes.cleanOutputFolder': 'true'
+Found config -> 'collectIncludes.excludeDirectories': '[]'
+Found config -> 'structurizr.workspace': ''
+Found config -> 'structurizr.export': ''
+Found config -> 'docDir': '/home/joerg/IdeaProjects/selfcontained-doctoolchain'
+Found config -> 'mainConfigFile': 'docToolchainConfig.groovy'
+imageDir: images/.
+imageDir: images/.
+arc42/arc42.adoc
+/home/joerg/IdeaProjects/selfcontained-doctoolchain/build/images
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+WARNING: JavaVersion < 17 - exportMarkdown disabled
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+docToolchain> docDir: /home/joerg/IdeaProjects/selfcontained-doctoolchain
+docToolchain> mainConfigFile: docToolchainConfig.groovy
+docToolchain> pdfThemeDir: 
+docToolchain> HSC sourceDir: /home/joerg/IdeaProjects/selfcontained-doctoolchain/build/html5
+docToolchain> HSC checkingResultsDir: /home/joerg/IdeaProjects/selfcontained-doctoolchain/build/report/htmlchecks
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Found OpenAPI specification in Config.groovy
+
+=====================
+OpenAPI Config:
+=====================
+Specification file: src/docs/petstore-v2.0.yaml
+inputSpec: task ':exportOpenApi' property 'inputSpec'
+outputDir: task ':exportOpenApi' property 'outputDir'
+
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+imageDir: images/.
+imageDir: images/.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration classpath is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration classpath is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+All projects evaluated.
+Abbreviated task name 'generateHtml' matched 'generateHTML'
+Selected primary task 'generateHtml' from project :
+The configuration :mainSourceElements is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :detachedConfiguration1 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :detachedConfiguration1 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Tasks to be executed: [task ':generateHTML']
+Tasks that were excluded: []
+Resolve mutations for :generateHTML (Thread[Execution worker,5,main]) started.
+:generateHTML (Thread[included builds,5,main]) started.
+The configuration :detachedConfiguration2 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :detachedConfiguration2 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :detachedConfiguration2 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :detachedConfiguration2 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Caching disabled for task ':generateHTML' because:
+  Build cache is disabled
+Task ':generateHTML' is not up-to-date because:
+  No history is available.
+Copy resources for 'html5' to /home/joerg/IdeaProjects/selfcontained-doctoolchain/build/html5
+The configuration :detachedConfiguration3 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :detachedConfiguration3 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+The configuration :detachedConfiguration3 is both resolvable and consumable. This is considered a legacy configuration and it will eventually only be possible to be one of these.
+The configuration :detachedConfiguration3 is both consumable and declarable. This combination is incorrect, only one of these flags should be set.
+Running AsciidoctorJ instance with classpath [/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctor-gradle-jvm/4.0.0-alpha.1/a09622062260aea91fcd34dc39f1a4d06a799dfa/asciidoctor-gradle-jvm-4.0.0-alpha.1.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-3.0.15.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-groovy-dsl/2.0.2/1b8f8b197e52b4158815d738f1b1b9f8fdfbac1c/asciidoctorj-groovy-dsl-2.0.2.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj/2.5.7/8667fe77c2ffb5270a17389e6fe76ea89b1087e4/asciidoctorj-2.5.7.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-pdf/2.3.4/a0630317cfa9ac84ecf2aa0a78489d63c2626785/asciidoctorj-pdf-2.3.4.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-diagram/2.2.7/adce3c4f977e03748f5e223215404bc8b81be439/asciidoctorj-diagram-2.2.7.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.jruby/jruby-complete/9.3.8.0/8e11191265ab501930125081d8c21a3f55f1b8cd/jruby-complete-9.3.8.0.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.82/a7c5fef184d238065de38f81bbc6ee50cca2e21/jcommander-1.82.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-api/2.5.7/37ea651d5f1ba2ad3d1c09eb2356b17f35c15bb5/asciidoctorj-api-2.5.7.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.15/74b7e0b99526c569e3a59cb84dbcc6204d601ee6/groovy-2.4.15.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-diagram-plantuml/1.2023.5/d97e34475c4f898e8dacd1095768bc60cfeed997/asciidoctorj-diagram-plantuml-1.2023.5.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-diagram-ditaamini/1.0.3/9bc1656a26fe58735d012f1415eaccfafb85800f/asciidoctorj-diagram-ditaamini-1.0.3.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/generated-gradle-jars/gradle-api-8.1.1.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-ant-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-astbuilder-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-console-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-datetime-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-dateutil-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-groovydoc-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-json-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-nio-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-sql-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-templates-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-test-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-xml-3.0.15.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/javaparser-core-3.17.0.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-1.8.10.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-common-1.8.10.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-reflect-1.8.10.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-jdk7-1.8.10.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-jdk8-1.8.10.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/gradle-installation-beacon-8.1.1.jar, /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/jars-9/e37ffbe7bc914ef9311b1dfa90500476/dsl.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/gradle-core-8.1.1.jar, /home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/guava-31.1-jre.jar]
+Starting process 'command '/home/joerg/.sdkman/candidates/java/11.0.26-tem/bin/java''. Working directory: /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1 Command: /home/joerg/.sdkman/candidates/java/11.0.26-tem/bin/java --add-opens java.base/sun.nio.ch=ALL-UNNAMED --add-opens java.base/java.io=ALL-UNNAMED -Dfile.encoding=UTF-8 -Duser.country=DE -Duser.language=de -Duser.variant -cp /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctor-gradle-jvm/4.0.0-alpha.1/a09622062260aea91fcd34dc39f1a4d06a799dfa/asciidoctor-gradle-jvm-4.0.0-alpha.1.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-3.0.15.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-groovy-dsl/2.0.2/1b8f8b197e52b4158815d738f1b1b9f8fdfbac1c/asciidoctorj-groovy-dsl-2.0.2.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj/2.5.7/8667fe77c2ffb5270a17389e6fe76ea89b1087e4/asciidoctorj-2.5.7.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-pdf/2.3.4/a0630317cfa9ac84ecf2aa0a78489d63c2626785/asciidoctorj-pdf-2.3.4.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-diagram/2.2.7/adce3c4f977e03748f5e223215404bc8b81be439/asciidoctorj-diagram-2.2.7.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.jruby/jruby-complete/9.3.8.0/8e11191265ab501930125081d8c21a3f55f1b8cd/jruby-complete-9.3.8.0.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/com.beust/jcommander/1.82/a7c5fef184d238065de38f81bbc6ee50cca2e21/jcommander-1.82.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-api/2.5.7/37ea651d5f1ba2ad3d1c09eb2356b17f35c15bb5/asciidoctorj-api-2.5.7.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.codehaus.groovy/groovy/2.4.15/74b7e0b99526c569e3a59cb84dbcc6204d601ee6/groovy-2.4.15.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-diagram-plantuml/1.2023.5/d97e34475c4f898e8dacd1095768bc60cfeed997/asciidoctorj-diagram-plantuml-1.2023.5.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/files-2.1/org.asciidoctor/asciidoctorj-diagram-ditaamini/1.0.3/9bc1656a26fe58735d012f1415eaccfafb85800f/asciidoctorj-diagram-ditaamini-1.0.3.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/generated-gradle-jars/gradle-api-8.1.1.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-ant-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-astbuilder-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-console-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-datetime-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-dateutil-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-groovydoc-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-json-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-nio-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-sql-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-templates-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-test-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/groovy-xml-3.0.15.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/javaparser-core-3.17.0.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-1.8.10.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-common-1.8.10.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-reflect-1.8.10.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-jdk7-1.8.10.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/kotlin-stdlib-jdk8-1.8.10.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/gradle-installation-beacon-8.1.1.jar:/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/jars-9/e37ffbe7bc914ef9311b1dfa90500476/dsl.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/gradle-core-8.1.1.jar:/home/joerg/.gradle/wrapper/dists/gradle-8.1.1-bin/9wiye5v2saajue4irfo8ybqfp/gradle-8.1.1/lib/guava-31.1-jre.jar org.asciidoctor.gradle.remote.AsciidoctorJavaExec /home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/build/tmp/generateHTML.javaexec-data
+Successfully started process 'command '/home/joerg/.sdkman/candidates/java/11.0.26-tem/bin/java''
+Converting /home/joerg/IdeaProjects/selfcontained-doctoolchain/src/docs/arc42/arc42.adoc
+
+BUILD SUCCESSFUL in 1m
+1 actionable task: 1 executed
+2025-02-09T21:29:53.520+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.ExecuteBuild] The daemon has finished executing the build.
+2025-02-09T21:29:53.543+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon stop has been requested. Sleeping until state changes.
+2025-02-09T21:29:53.543+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: finished waiting for DaemonCommandExecution[command = Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:33087 to /127.0.0.1:58824]. Result org.gradle.launcher.daemon.server.DaemonStateCoordinator@66c2bd7a with state StopRequested
+2025-02-09T21:29:53.543+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Command execution: completed DaemonCommandExecution[command = Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}, connection = DefaultDaemonConnection: socket connection from /127.0.0.1:33087 to /127.0.0.1:58824]
+2025-02-09T21:29:53.544+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] resetting idle timer
+2025-02-09T21:29:53.544+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] Marking daemon stopped due to command completed and stop requested. The daemon is running a build: false
+2025-02-09T21:29:53.544+0100 [DEBUG] [org.gradle.launcher.daemon.server.exec.ReturnResult] Daemon is dispatching the build result: Success[value=org.gradle.launcher.exec.BuildActionResult@4d8572f5]
+2025-02-09T21:29:53.544+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: dispatching Success[value=org.gradle.launcher.exec.BuildActionResult@4d8572f5]
+2025-02-09T21:29:53.545+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonStateCoordinator] daemon has stopped.
+2025-02-09T21:29:53.545+0100 [DEBUG] [org.gradle.launcher.daemon.server.Daemon] stop() called on daemon
+2025-02-09T21:29:53.545+0100 [INFO] [org.gradle.launcher.daemon.server.Daemon] Stop requested. Daemon is removing its presence from the registry...
+2025-02-09T21:29:53.548+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Finishing executing command: Build{id=758efe16-9bd4-4f6a-b649-d64b0faff0b0, currentDir=/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1}
+2025-02-09T21:29:53.548+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Removing our presence to clients, eg. removing this address from the registry: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:29:53.549+0100 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:29:53.550+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2025-02-09T21:29:53.550+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2025-02-09T21:29:53.551+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.
+2025-02-09T21:29:53.552+0100 [DEBUG] [org.gradle.launcher.daemon.server.DaemonRegistryUpdater] Address removed from registry.
+2025-02-09T21:29:53.560+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.CloseInput
+2025-02-09T21:29:53.560+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received IO message from client: org.gradle.launcher.daemon.protocol.CloseInput@4f75b329
+2025-02-09T21:29:53.562+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received class org.gradle.launcher.daemon.protocol.Finished
+2025-02-09T21:29:53.562+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received non-IO message from client: org.gradle.launcher.daemon.protocol.Finished@66033d6d
+2025-02-09T21:29:53.562+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultIncomingConnectionHandler] Received finished message: org.gradle.launcher.daemon.protocol.Finished@66033d6d
+2025-02-09T21:29:53.563+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: stopping connection
+2025-02-09T21:29:53.565+0100 [DEBUG] [org.gradle.internal.remote.internal.inet.SocketConnection] Discarding EOFException: java.io.EOFException
+2025-02-09T21:29:53.565+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 17: received null
+2025-02-09T21:29:53.566+0100 [DEBUG] [org.gradle.launcher.daemon.server.DefaultDaemonConnection] thread 17: Received end-of-input from client.
+2025-02-09T21:29:53.571+0100 [DEBUG] [org.gradle.launcher.daemon.server.SynchronizedDispatchConnection] thread 16: stopping connection
+2025-02-09T21:29:53.579+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for jars (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/jars-9)
+2025-02-09T21:29:53.579+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on jars (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/jars-9).
+2025-02-09T21:29:53.581+0100 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] jars (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/jars-9) has last been fully cleaned up 3 hours ago
+2025-02-09T21:29:53.584+0100 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] Artifact transforms cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/transforms-3) has last been fully cleaned up 3 hours ago
+2025-02-09T21:29:53.584+0100 [DEBUG] [org.gradle.cache.internal.DefaultCacheCoordinator] Cache Artifact transforms cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/transforms-3) was closed 0 times.
+2025-02-09T21:29:53.602+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file content cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/fileContent)
+2025-02-09T21:29:53.602+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file content cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/fileContent).
+2025-02-09T21:29:53.604+0100 [DEBUG] [org.gradle.internal.watch.vfs.impl.WatchingVirtualFileSystem] Closing VFS, dropping state
+2025-02-09T21:29:53.605+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for Generated Gradle JARs cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/generated-gradle-jars)
+2025-02-09T21:29:53.605+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on Generated Gradle JARs cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/generated-gradle-jars).
+2025-02-09T21:29:53.607+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for artifact cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2)
+2025-02-09T21:29:53.607+0100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-metadata.bin (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/metadata-2.105/module-metadata.bin)
+2025-02-09T21:29:53.607+0100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache module-artifact.bin (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2/metadata-2.105/module-artifact.bin)
+2025-02-09T21:29:53.608+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on artifact cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2).
+2025-02-09T21:29:53.608+0100 [DEBUG] [org.gradle.cache.internal.DefaultPersistentDirectoryStore] artifact cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/modules-2) has last been fully cleaned up 3 hours ago
+2025-02-09T21:29:53.609+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for journal cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/journal-1)
+2025-02-09T21:29:53.610+0100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache file-access.bin (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/journal-1/file-access.bin)
+2025-02-09T21:29:53.610+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on journal cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/journal-1).
+2025-02-09T21:29:53.612+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for file hash cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/fileHashes)
+2025-02-09T21:29:53.612+0100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache fileHashes.bin (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/fileHashes/fileHashes.bin)
+2025-02-09T21:29:53.613+0100 [DEBUG] [org.gradle.cache.internal.btree.BTreePersistentIndexedCache] Closing cache resourceHashesCache.bin (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/fileHashes/resourceHashesCache.bin)
+2025-02-09T21:29:53.613+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on file hash cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/fileHashes).
+2025-02-09T21:29:53.615+0100 [DEBUG] [org.gradle.cache.internal.LockOnDemandCrossProcessCacheAccess] Releasing file lock for execution history cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/executionHistory)
+2025-02-09T21:29:53.615+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on execution history cache (/home/joerg/IdeaProjects/selfcontained-doctoolchain/doctoolchain/docToolchain-3.4.1/doctoolchain/.gradle/caches/8.1.1/executionHistory).
+2025-02-09T21:29:53.620+0100 [DEBUG] [org.gradle.launcher.daemon.registry.PersistentDaemonRegistry] Removing daemon address: [16ecc3d9-27ac-4523-8239-d588b3ab20d1 port:33087, addresses:[localhost/127.0.0.1]]
+2025-02-09T21:29:53.620+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Waiting to acquire exclusive lock on daemon addresses registry.
+2025-02-09T21:29:53.621+0100 [DEBUGDaemon vm is shutting down... The daemon has exited normally or was terminated in response to a user interrupt.
+] [org.gradle.cache.internal.DefaultFileLockManager] Lock acquired on daemon addresses registry.
+2025-02-09T21:29:53.622+0100 [DEBUG] [org.gradle.cache.internal.DefaultFileLockManager] Releasing lock on daemon addresses registry.

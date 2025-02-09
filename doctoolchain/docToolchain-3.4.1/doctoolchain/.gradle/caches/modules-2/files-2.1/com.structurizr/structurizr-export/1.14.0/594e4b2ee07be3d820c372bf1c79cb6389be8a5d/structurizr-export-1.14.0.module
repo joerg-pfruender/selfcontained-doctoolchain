@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.structurizr",
+    "module": "structurizr-export",
+    "version": "1.14.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-core",
+          "version": {
+            "requires": "1.24.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-export-1.14.0.jar",
+          "url": "structurizr-export-1.14.0.jar",
+          "size": 76753,
+          "sha512": "79f0843c67712632ed76d1f48346d8725c650ac2f31dbfe472331a9a6612cf50d59ceca69772a1d8c8bf411f014941472b00a49ad0d4af72d5bc95bd44bec6a7",
+          "sha256": "2d66dd2b04fdf2ffe8d6edca180459ae3ec410214692f644cbfdc5b21a6c22a2",
+          "sha1": "064d2cb40142878853449664e70c7d0cc5ef95f2",
+          "md5": "438d84759341a3a3697c0774f6df5100"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-core",
+          "version": {
+            "requires": "1.24.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-export-1.14.0.jar",
+          "url": "structurizr-export-1.14.0.jar",
+          "size": 76753,
+          "sha512": "79f0843c67712632ed76d1f48346d8725c650ac2f31dbfe472331a9a6612cf50d59ceca69772a1d8c8bf411f014941472b00a49ad0d4af72d5bc95bd44bec6a7",
+          "sha256": "2d66dd2b04fdf2ffe8d6edca180459ae3ec410214692f644cbfdc5b21a6c22a2",
+          "sha1": "064d2cb40142878853449664e70c7d0cc5ef95f2",
+          "md5": "438d84759341a3a3697c0774f6df5100"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-export-1.14.0-javadoc.jar",
+          "url": "structurizr-export-1.14.0-javadoc.jar",
+          "size": 177757,
+          "sha512": "e1d314d0f6ac37199cc0203cb9ef78a7645fe240e09c9ccd2ec61178750572a10af0ef887530829e392e8bc53e6b9eec0d68a464c856d6ebaf7efcaea23c3c54",
+          "sha256": "196045cf4c84809d1617aa4e098750f26b683326028c2a485116645dc660d2db",
+          "sha1": "c5aa767a7e8a83322f64aaa0da08f7bb5eb953f2",
+          "md5": "ce392001afe6e9a89bcf3ae466d048f5"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-export-1.14.0-sources.jar",
+          "url": "structurizr-export-1.14.0-sources.jar",
+          "size": 730304,
+          "sha512": "c47c9948f5274aa91721a300529d71d681fa10d8bd667cf8627287a21c312e4972e08f9e508e849682eef775d39093c2b4bfef1a232e9966647961057ab1abb9",
+          "sha256": "698ee6c62c5a64dfc740e42cc071aa3887ff86ade35ac3f2b9fcd6f73341874d",
+          "sha1": "fea30f84bb69e4a87dadfc7e30ac05461e954f64",
+          "md5": "128ebc0ab0d362d8310b4c673098441e"
+        }
+      ]
+    }
+  ]
+}

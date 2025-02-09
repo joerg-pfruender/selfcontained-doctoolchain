@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.asciidoctor",
+    "module": "asciidoctorj-diagram-plantuml",
+    "version": "1.2023.5",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-plantuml-1.2023.5.jar",
+          "url": "asciidoctorj-diagram-plantuml-1.2023.5.jar",
+          "size": 15005425,
+          "sha512": "ee9644e6a3ee38f3deb28bcc0537774ee3f8128d4462cf5b8a96e17124a4ecf242198e7ebe042671fc586fde6d65d7026b4635d99f3a5eb8088ddaef46be249c",
+          "sha256": "321341cb3fe6e05043b3ea72653f28a5e307d2f274a9fbe196cc76552c58a4ec",
+          "sha1": "d97e34475c4f898e8dacd1095768bc60cfeed997",
+          "md5": "0bfd073b32c233cac55b12da1d132292"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-plantuml-1.2023.5.jar",
+          "url": "asciidoctorj-diagram-plantuml-1.2023.5.jar",
+          "size": 15005425,
+          "sha512": "ee9644e6a3ee38f3deb28bcc0537774ee3f8128d4462cf5b8a96e17124a4ecf242198e7ebe042671fc586fde6d65d7026b4635d99f3a5eb8088ddaef46be249c",
+          "sha256": "321341cb3fe6e05043b3ea72653f28a5e307d2f274a9fbe196cc76552c58a4ec",
+          "sha1": "d97e34475c4f898e8dacd1095768bc60cfeed997",
+          "md5": "0bfd073b32c233cac55b12da1d132292"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-plantuml-1.2023.5-javadoc.jar",
+          "url": "asciidoctorj-diagram-plantuml-1.2023.5-javadoc.jar",
+          "size": 261,
+          "sha512": "36bd1377343da9d931fa783061aec849db1f7861920b3a5882f17623d5eedafb4936ad2cb6c46a71cb08a0e85d5d943a46a7840963caa5b42466c161d2cca4e1",
+          "sha256": "349cd5ede556fb2f1c497c02e720cbfb1607b5813bec04f0990a9ac7b6d82493",
+          "sha1": "0ac264a0bf6e09354e173eaed11f51afe7f634be",
+          "md5": "ccb331af171536cc4d2812713db5ad32"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-plantuml-1.2023.5-sources.jar",
+          "url": "asciidoctorj-diagram-plantuml-1.2023.5-sources.jar",
+          "size": 261,
+          "sha512": "36bd1377343da9d931fa783061aec849db1f7861920b3a5882f17623d5eedafb4936ad2cb6c46a71cb08a0e85d5d943a46a7840963caa5b42466c161d2cca4e1",
+          "sha256": "349cd5ede556fb2f1c497c02e720cbfb1607b5813bec04f0990a9ac7b6d82493",
+          "sha1": "0ac264a0bf6e09354e173eaed11f51afe7f634be",
+          "md5": "ccb331af171536cc4d2812713db5ad32"
+        }
+      ]
+    }
+  ]
+}

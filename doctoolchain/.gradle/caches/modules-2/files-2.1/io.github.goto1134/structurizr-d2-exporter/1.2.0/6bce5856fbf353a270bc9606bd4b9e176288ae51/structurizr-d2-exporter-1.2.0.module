@@ -1,0 +1,109 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.github.goto1134",
+    "module": "structurizr-d2-exporter",
+    "version": "1.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.6"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "structurizr-d2-exporter-1.2.0.jar",
+          "url": "structurizr-d2-exporter-1.2.0.jar",
+          "size": 26836,
+          "sha512": "613b51df08085fe21998c385ef27cdbd6c61cf54254a523de27ed0747f3567982710ebbe798011a0a5d4af2ba6ccf93a9dd2fa74dc2d3a7a849ee73e2df23f58",
+          "sha256": "a4798304e3a4429a580eaa60cac6fec3788f757de53a3a84860cf8d4ffe66fb6",
+          "sha1": "f0b916b696a70fea35d48c14951bf282e55d0499",
+          "md5": "0853c904deca72f2937e23c7bbfb795d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-export",
+          "version": {
+            "requires": "1.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-d2-exporter-1.2.0.jar",
+          "url": "structurizr-d2-exporter-1.2.0.jar",
+          "size": 26836,
+          "sha512": "613b51df08085fe21998c385ef27cdbd6c61cf54254a523de27ed0747f3567982710ebbe798011a0a5d4af2ba6ccf93a9dd2fa74dc2d3a7a849ee73e2df23f58",
+          "sha256": "a4798304e3a4429a580eaa60cac6fec3788f757de53a3a84860cf8d4ffe66fb6",
+          "sha1": "f0b916b696a70fea35d48c14951bf282e55d0499",
+          "md5": "0853c904deca72f2937e23c7bbfb795d"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-d2-exporter-1.2.0-sources.jar",
+          "url": "structurizr-d2-exporter-1.2.0-sources.jar",
+          "size": 11326,
+          "sha512": "9ceca099b9a587b809f2d1f74d0f94c27aadc7481853e30e251c15217eac5a7f67f62501a154065f04da86bbec11b28f5fea4506a839eb81aa517bbbc1e39c01",
+          "sha256": "9c4304431ee7e59c7ba6540cb55d0d7ccacb284ed710f522a042f932bdb7f12e",
+          "sha1": "44c981607cf101b0b0a291d978d47093df790708",
+          "md5": "7bf0860ecd5987eceaf3edcb28963667"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-d2-exporter-1.2.0-javadoc.jar",
+          "url": "structurizr-d2-exporter-1.2.0-javadoc.jar",
+          "size": 340087,
+          "sha512": "96b4e192068c0acb88b997748a81d11f974d0e7c4cd986229f5869b7e189090f8374a03947197c897bb8dc8801fc2730737aaf00f65e4d255791958f72d5f28c",
+          "sha256": "d3d8aece205dc4422d76b6ac6a981e5551ce5b43a9f200d7a0d34a232cdcfc48",
+          "sha1": "49dc955b305d4bd5c585b8450af9c13a71ce95e0",
+          "md5": "90461eaffd11257f6035d1b168345a2f"
+        }
+      ]
+    }
+  ]
+}

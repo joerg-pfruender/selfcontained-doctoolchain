@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.aim42.htmlSanityCheck</groupId>
+  <artifactId>htmlSanityCheck-gradle-plugin</artifactId>
+  <version>2.0.0-rc0</version>
+  <name>htmlSanityCheck-gradle-plugin</name>
+  <description>HTML Sanity Check - Module htmlSanityCheck-gradle-plugin</description>
+  <url>https://hsc.aim42.org/</url>
+  <licenses>
+    <license>
+      <name>The Apache License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>gstarke</id>
+      <name>Gernot Starke</name>
+      <email>gs@gernotstarke.de</email>
+    </developer>
+    <developer>
+      <id>ascheman</id>
+      <name>Gerd Aschemann</name>
+      <email>gerd@aschemann.net</email>
+    </developer>
+    <developer>
+      <id>rdmueller</id>
+      <name>Ralf D. Müller</name>
+      <email>ralf.d.mueller@gmail.com</email>
+    </developer>
+    <developer>
+      <id>ruhrotht</id>
+      <name>Thomas Ruhroth</name>
+      <email>Thomas.Ruhroth@msg.group</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git://github.com/aim42/htmlSanityCheck.git</connection>
+    <developerConnection>scm:git:ssh://github.com/aim42/htmlSanityCheck.git</developerConnection>
+    <url>https://github.com/aim42/htmlSanityCheck.git</url>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.aim42.htmlSanityCheck</groupId>
+      <artifactId>htmlSanityCheck-core</artifactId>
+      <version>2.0.0-rc0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>

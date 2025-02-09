@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>io.github.http-builder-ng</groupId>
+  <artifactId>http-builder-ng-core</artifactId>
+  <version>1.0.3</version>
+  <dependencies>
+    <dependency>
+      <groupId>xml-resolver</groupId>
+      <artifactId>xml-resolver</artifactId>
+      <version>1.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.7.21</version>
+      <scope>compile</scope>
+    </dependency>
+  </dependencies>
+  <description>Groovy client for making http requests.</description>
+  <name>http-builder-ng-core</name>
+  <url>https://http-builder-ng.github.io/http-builder-ng/</url>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>dwclark</id>
+      <name>David Clark</name>
+    </developer>
+    <developer>
+      <id>cjstehno</id>
+      <name>Christopher J Stehno</name>
+      <email>chris@stehno.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection>scm:git:git@github.com:http-builder-ng/http-builder-ng.git</connection>
+    <developerConnection>scm:git:git@github.com:http-builder-ng/http-builder-ng.git</developerConnection>
+    <url>https://github.com/http-builder-ng/http-builder-ng</url>
+  </scm>
+</project>

@@ -1,0 +1,113 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.theokanning.openai-gpt3-java",
+    "module": "client",
+    "version": "0.12.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.0.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.theokanning.openai-gpt3-java",
+          "module": "api",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-0.12.0.jar",
+          "url": "client-0.12.0.jar",
+          "size": 7575,
+          "sha512": "e9b61f92f58064c63edba9a83aa5303a333315304a6db4542bb6848fe8c3d119c8220f7efce3a4e3fa18e674ecc21d9ee89ede811f597e6eb3f75e308675d2f4",
+          "sha256": "2be4b0fcd7b08013b7936e2c57821ee52d72874839851cedfee70e1b8f9d0944",
+          "sha1": "8454886652e558333a1a1bf2cf32337c1d13b544",
+          "md5": "51841e17e9c613d27a929f67dbca5393"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "converter-jackson",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.theokanning.openai-gpt3-java",
+          "module": "api",
+          "version": {
+            "requires": "0.12.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "retrofit",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.squareup.retrofit2",
+          "module": "adapter-rxjava2",
+          "version": {
+            "requires": "2.9.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "client-0.12.0.jar",
+          "url": "client-0.12.0.jar",
+          "size": 7575,
+          "sha512": "e9b61f92f58064c63edba9a83aa5303a333315304a6db4542bb6848fe8c3d119c8220f7efce3a4e3fa18e674ecc21d9ee89ede811f597e6eb3f75e308675d2f4",
+          "sha256": "2be4b0fcd7b08013b7936e2c57821ee52d72874839851cedfee70e1b8f9d0944",
+          "sha1": "8454886652e558333a1a1bf2cf32337c1d13b544",
+          "md5": "51841e17e9c613d27a929f67dbca5393"
+        }
+      ]
+    }
+  ]
+}

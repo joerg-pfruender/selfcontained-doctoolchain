@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.ysb33r.gradle",
+    "module": "grolifant-core",
+    "version": "2.0.0-alpha.6",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.6.1",
+      "buildId": "lk737dha65clhnvgnjg7itcwoq"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "grolifant-core-2.0.0-alpha.6.jar",
+          "url": "grolifant-core-2.0.0-alpha.6.jar",
+          "size": 390861,
+          "sha512": "d10ac11b9ac0a672d25f2ac253c0005d50e9684e86d0b60caf60198dbde305d7fcf9f7a689c69a477d8588b84d1e1751fa614d69cb0d58215f60fb6791d73e48",
+          "sha256": "c2db0d27b9eec0b91970566d8efd6042414aeaa58f23796ff669d81cf19ae15f",
+          "sha1": "e41f1e67dcff3da2ff3b5899a341ea4ed4321941",
+          "md5": "fc6dde05da6e14cb623a443f7bb0763d"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.tukaani",
+          "module": "xz",
+          "version": {
+            "requires": "1.6"
+          }
+        },
+        {
+          "group": "org.apache.commons",
+          "module": "commons-collections4",
+          "version": {
+            "requires": "4.4"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "grolifant-core-2.0.0-alpha.6.jar",
+          "url": "grolifant-core-2.0.0-alpha.6.jar",
+          "size": 390861,
+          "sha512": "d10ac11b9ac0a672d25f2ac253c0005d50e9684e86d0b60caf60198dbde305d7fcf9f7a689c69a477d8588b84d1e1751fa614d69cb0d58215f60fb6791d73e48",
+          "sha256": "c2db0d27b9eec0b91970566d8efd6042414aeaa58f23796ff669d81cf19ae15f",
+          "sha1": "e41f1e67dcff3da2ff3b5899a341ea4ed4321941",
+          "md5": "fc6dde05da6e14cb623a443f7bb0763d"
+        }
+      ]
+    }
+  ]
+}

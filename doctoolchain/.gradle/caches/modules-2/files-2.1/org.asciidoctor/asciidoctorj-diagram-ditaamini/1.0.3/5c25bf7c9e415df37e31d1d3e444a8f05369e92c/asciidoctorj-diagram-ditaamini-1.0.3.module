@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.asciidoctor",
+    "module": "asciidoctorj-diagram-ditaamini",
+    "version": "1.0.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-ditaamini-1.0.3.jar",
+          "url": "asciidoctorj-diagram-ditaamini-1.0.3.jar",
+          "size": 97813,
+          "sha512": "6e3a109fb5e2743bf413640953b3096a892760d93212098d4dc2315671d07d1c7133bfe6b347b85a9fdcbc99ccdf0249332b93bbadc52b79896b8c5078935dae",
+          "sha256": "5e1dde15a88bf4ca2be60663ae12fcf8c215321e8eeca4e7947fb22732556cc9",
+          "sha1": "9bc1656a26fe58735d012f1415eaccfafb85800f",
+          "md5": "b32da13cc21f8b21d8c6cbff1faefad2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-ditaamini-1.0.3.jar",
+          "url": "asciidoctorj-diagram-ditaamini-1.0.3.jar",
+          "size": 97813,
+          "sha512": "6e3a109fb5e2743bf413640953b3096a892760d93212098d4dc2315671d07d1c7133bfe6b347b85a9fdcbc99ccdf0249332b93bbadc52b79896b8c5078935dae",
+          "sha256": "5e1dde15a88bf4ca2be60663ae12fcf8c215321e8eeca4e7947fb22732556cc9",
+          "sha1": "9bc1656a26fe58735d012f1415eaccfafb85800f",
+          "md5": "b32da13cc21f8b21d8c6cbff1faefad2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-ditaamini-1.0.3-javadoc.jar",
+          "url": "asciidoctorj-diagram-ditaamini-1.0.3-javadoc.jar",
+          "size": 261,
+          "sha512": "e14a761b601adf783d9c855a6284c0600e830af852cbabf890e40c3e351af4eb7e808e9bf1eb58810d472d54306e9045145aea454f0542db75c76cbf3e25bc39",
+          "sha256": "508d16130b5474b208a658c0aad261555a2f7551e0e36c46dd7bb1a6ada7c56c",
+          "sha1": "93cbd85b4ed61905d7333c663e8ea050944debc9",
+          "md5": "b5a27f574b93448c309d19abdab2f353"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-diagram-ditaamini-1.0.3-sources.jar",
+          "url": "asciidoctorj-diagram-ditaamini-1.0.3-sources.jar",
+          "size": 261,
+          "sha512": "e14a761b601adf783d9c855a6284c0600e830af852cbabf890e40c3e351af4eb7e808e9bf1eb58810d472d54306e9045145aea454f0542db75c76cbf3e25bc39",
+          "sha256": "508d16130b5474b208a658c0aad261555a2f7551e0e36c46dd7bb1a6ada7c56c",
+          "sha1": "93cbd85b4ed61905d7333c663e8ea050944debc9",
+          "md5": "b5a27f574b93448c309d19abdab2f353"
+        }
+      ]
+    }
+  ]
+}

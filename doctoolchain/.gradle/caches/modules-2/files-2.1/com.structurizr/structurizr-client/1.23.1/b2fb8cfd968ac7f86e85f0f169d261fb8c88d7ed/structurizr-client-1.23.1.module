@@ -1,0 +1,160 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.structurizr",
+    "module": "structurizr-client",
+    "version": "1.23.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-core",
+          "version": {
+            "requires": "1.23.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-client-1.23.1.jar",
+          "url": "structurizr-client-1.23.1.jar",
+          "size": 32035,
+          "sha512": "5c092b5c0f3f960ee5c4e8e52fd65eb2852d7220884f62225728c98ae3abb99e4eac5a2f742e3dc3ce7c2abb6f704a043dc4bbf9a3c049a30a3afeb0167e90cd",
+          "sha256": "e6244572c56192dde7bcbe3c9665c1e3c166b7e0ce1143e3df14484652c96d7a",
+          "sha1": "a1e311f70b0bb24ef1cafdec6af0b34efca16f96",
+          "md5": "b4280a84eb7d7961458ff657750c43df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-core",
+          "version": {
+            "requires": "1.23.1"
+          }
+        },
+        {
+          "group": "com.fasterxml.jackson.core",
+          "module": "jackson-databind",
+          "version": {
+            "requires": "2.14.2"
+          }
+        },
+        {
+          "group": "org.apache.httpcomponents.client5",
+          "module": "httpclient5",
+          "version": {
+            "requires": "5.2.1"
+          }
+        },
+        {
+          "group": "javax.xml.bind",
+          "module": "jaxb-api",
+          "version": {
+            "requires": "2.3.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-client-1.23.1.jar",
+          "url": "structurizr-client-1.23.1.jar",
+          "size": 32035,
+          "sha512": "5c092b5c0f3f960ee5c4e8e52fd65eb2852d7220884f62225728c98ae3abb99e4eac5a2f742e3dc3ce7c2abb6f704a043dc4bbf9a3c049a30a3afeb0167e90cd",
+          "sha256": "e6244572c56192dde7bcbe3c9665c1e3c166b7e0ce1143e3df14484652c96d7a",
+          "sha1": "a1e311f70b0bb24ef1cafdec6af0b34efca16f96",
+          "md5": "b4280a84eb7d7961458ff657750c43df"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-client-1.23.1-javadoc.jar",
+          "url": "structurizr-client-1.23.1-javadoc.jar",
+          "size": 139153,
+          "sha512": "b48056b97c8d6f6da8a0f317b438b3c36fa3c1de0b12e3f8a1f447a86c7c9ed7b29d88a61a496c3c183dfc45f8b7d0f9ff7f4936ee37235b247ca09e2e619774",
+          "sha256": "f9aede4791a6845ea6f9f53e8bf1d31e23ddf08cbbe05a098fafa8a4a73b5a5c",
+          "sha1": "880121cc639a88fbc8b73e1a59b701b20eae47db",
+          "md5": "f4b2ebfb795c23982f0c4ff05586e677"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-client-1.23.1-sources.jar",
+          "url": "structurizr-client-1.23.1-sources.jar",
+          "size": 20104,
+          "sha512": "d7a0ef945550f34dd54e12cb31e0b1202bb97d360442348bedfe3b4f40e13c59ef488a2b83dae4ce65a9bcb5335bf0d785ee7e0665062793b0051d87d36f8765",
+          "sha256": "6f5e19b93bf2fe0e60817d2c609131f8b8c83ecd1c1150c4a1b9bbccea7e1176",
+          "sha1": "7de798b8fb7cd5e872a4fe0388a83bc5970b7679",
+          "md5": "a18564ce429110a5b5bf793a91e56adc"
+        }
+      ]
+    }
+  ]
+}

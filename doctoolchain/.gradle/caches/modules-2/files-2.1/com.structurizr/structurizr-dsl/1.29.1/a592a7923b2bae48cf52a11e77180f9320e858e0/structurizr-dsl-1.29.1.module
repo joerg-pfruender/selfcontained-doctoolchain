@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.structurizr",
+    "module": "structurizr-dsl",
+    "version": "1.29.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.4.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-client",
+          "version": {
+            "requires": "1.23.1"
+          }
+        },
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-import",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-dsl-1.29.1.jar",
+          "url": "structurizr-dsl-1.29.1.jar",
+          "size": 177959,
+          "sha512": "fb50f1e63a3e4f40a91a43ba533b1c229226e32507a161176168adac39194120d207233292752d97db8d379a749c26eabe861c4df19c060199e8b1a5f60c3eb8",
+          "sha256": "17c7ab7d746378c9452a503704ae28a4aef34fe1a824da9bf095907bce6f5bc3",
+          "sha1": "4565349066584fcaa339a1c6215c15c9604fa41d",
+          "md5": "980d6759faff46e7e2fe82d27c2bc4ab"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-client",
+          "version": {
+            "requires": "1.23.1"
+          }
+        },
+        {
+          "group": "com.structurizr",
+          "module": "structurizr-import",
+          "version": {
+            "requires": "1.4.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "structurizr-dsl-1.29.1.jar",
+          "url": "structurizr-dsl-1.29.1.jar",
+          "size": 177959,
+          "sha512": "fb50f1e63a3e4f40a91a43ba533b1c229226e32507a161176168adac39194120d207233292752d97db8d379a749c26eabe861c4df19c060199e8b1a5f60c3eb8",
+          "sha256": "17c7ab7d746378c9452a503704ae28a4aef34fe1a824da9bf095907bce6f5bc3",
+          "sha1": "4565349066584fcaa339a1c6215c15c9604fa41d",
+          "md5": "980d6759faff46e7e2fe82d27c2bc4ab"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-dsl-1.29.1-javadoc.jar",
+          "url": "structurizr-dsl-1.29.1-javadoc.jar",
+          "size": 91919,
+          "sha512": "96ebfa75031c9e8eda1ecb6066fcbceb8ef2922257777f90b5ca1c137bcd46136a69c99e6366cb0e44c673403ccd2f44be3f85efaa1640d4bb36c8c0d7d204b3",
+          "sha256": "52a3d2124ba6571c0f7de98ac4774369f168b6132aaa6bcab731857b2d8ff41c",
+          "sha1": "05d03d06fd43653a65dcbbe3c988762097f5fa42",
+          "md5": "1800729af873eff891941cd9e5f4cfa0"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "structurizr-dsl-1.29.1-sources.jar",
+          "url": "structurizr-dsl-1.29.1-sources.jar",
+          "size": 94004,
+          "sha512": "a59e24cc110d90cc4536ce9f68ede6a65332b7e9ab38ee74532f4fab1a7877db5de654919d110d66bbb87baab2c1ab4207069969d3e3e1acb230d3c807c42757",
+          "sha256": "4cf4b6277e81f61a8bdd80e8663b66fe82487ce2ef68ca233386d147ea45bc87",
+          "sha1": "bd7dac75938d1733e6f927bf23c117f8026181cd",
+          "md5": "d16be6f7c5a44bd0cad1f438e6975156"
+        }
+      ]
+    }
+  ]
+}

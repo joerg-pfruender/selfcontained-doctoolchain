@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.asciidoctor",
+    "module": "asciidoctorj-pdf",
+    "version": "2.3.4",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "7.3.2"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-pdf-2.3.4.jar",
+          "url": "asciidoctorj-pdf-2.3.4.jar",
+          "size": 5889360,
+          "sha512": "c5b1be169033d30b6949aa08cf7fe7a58cd7924d2158c54a40ac1cfcc0edbb730267fdd80e93fcedc5506da4e1a2a462dd2680c50fbc7661ef4d2b2bc512d58a",
+          "sha256": "f9de08bc5adf443fd080a531f388a56d1a53ceff95d26f01e0a5817a62f97348",
+          "sha1": "a0630317cfa9ac84ecf2aa0a78489d63c2626785",
+          "md5": "1110995d1d7d92b47203854d464b665b"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-pdf-2.3.4.jar",
+          "url": "asciidoctorj-pdf-2.3.4.jar",
+          "size": 5889360,
+          "sha512": "c5b1be169033d30b6949aa08cf7fe7a58cd7924d2158c54a40ac1cfcc0edbb730267fdd80e93fcedc5506da4e1a2a462dd2680c50fbc7661ef4d2b2bc512d58a",
+          "sha256": "f9de08bc5adf443fd080a531f388a56d1a53ceff95d26f01e0a5817a62f97348",
+          "sha1": "a0630317cfa9ac84ecf2aa0a78489d63c2626785",
+          "md5": "1110995d1d7d92b47203854d464b665b"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-pdf-2.3.4-javadoc.jar",
+          "url": "asciidoctorj-pdf-2.3.4-javadoc.jar",
+          "size": 261,
+          "sha512": "76787ce2f6f1077f854a4a3da79969e0be2338bda7d1b4cbd9d455166b6712d2db94455b76513ccffad34b52ed71eef209c83164883074ea343707aad2a88038",
+          "sha256": "3a08241da8b66df871526e7add4c18fb2166f9ad32bbf88a6c4e165a8448bdd6",
+          "sha1": "7ece75d44839e279bbc76b0a5c64ff8639f75071",
+          "md5": "da60cefed76c5f3f27ff9f00f96196b6"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-pdf-2.3.4-sources.jar",
+          "url": "asciidoctorj-pdf-2.3.4-sources.jar",
+          "size": 261,
+          "sha512": "76787ce2f6f1077f854a4a3da79969e0be2338bda7d1b4cbd9d455166b6712d2db94455b76513ccffad34b52ed71eef209c83164883074ea343707aad2a88038",
+          "sha256": "3a08241da8b66df871526e7add4c18fb2166f9ad32bbf88a6c4e165a8448bdd6",
+          "sha1": "7ece75d44839e279bbc76b0a5c64ff8639f75071",
+          "md5": "da60cefed76c5f3f27ff9f00f96196b6"
+        }
+      ]
+    }
+  ]
+}

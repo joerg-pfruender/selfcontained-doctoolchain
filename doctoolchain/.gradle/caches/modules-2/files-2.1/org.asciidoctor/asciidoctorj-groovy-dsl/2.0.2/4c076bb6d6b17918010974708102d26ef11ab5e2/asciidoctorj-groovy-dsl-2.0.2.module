@@ -1,0 +1,133 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "org.asciidoctor",
+    "module": "asciidoctorj-groovy-dsl",
+    "version": "2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.8.3",
+      "buildId": "ahe3etlqindjbjjgu22uqafgx4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "2.4.15"
+          }
+        },
+        {
+          "group": "org.asciidoctor",
+          "module": "asciidoctorj",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asciidoctorj-groovy-dsl-2.0.2.jar",
+          "url": "asciidoctorj-groovy-dsl-2.0.2.jar",
+          "size": 27447,
+          "sha512": "8267b1ba3d95786329b9283534471f45281d87d826d658f8d36646caa4062432886b841b2e7e4362dd7d2bde3d168f4f93923e6a8527d41290e768ee791e3ad4",
+          "sha256": "89748318ca4949d8adcd1b3ea9c720d0cb313c0c90210233d6b18f3ad3666019",
+          "sha1": "1b8f8b197e52b4158815d738f1b1b9f8fdfbac1c",
+          "md5": "0dd6eeff4e6f2bc61e79d0b7adce8fbd"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.codehaus.groovy",
+          "module": "groovy",
+          "version": {
+            "requires": "2.4.15"
+          }
+        },
+        {
+          "group": "org.asciidoctor",
+          "module": "asciidoctorj",
+          "version": {
+            "requires": "2.2.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "asciidoctorj-groovy-dsl-2.0.2.jar",
+          "url": "asciidoctorj-groovy-dsl-2.0.2.jar",
+          "size": 27447,
+          "sha512": "8267b1ba3d95786329b9283534471f45281d87d826d658f8d36646caa4062432886b841b2e7e4362dd7d2bde3d168f4f93923e6a8527d41290e768ee791e3ad4",
+          "sha256": "89748318ca4949d8adcd1b3ea9c720d0cb313c0c90210233d6b18f3ad3666019",
+          "sha1": "1b8f8b197e52b4158815d738f1b1b9f8fdfbac1c",
+          "md5": "0dd6eeff4e6f2bc61e79d0b7adce8fbd"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-groovy-dsl-2.0.2-javadoc.jar",
+          "url": "asciidoctorj-groovy-dsl-2.0.2-javadoc.jar",
+          "size": 395638,
+          "sha512": "e0bfba69d450c71234c65794da41f3907bfba94c185ef3ceb8817be671b8be732d825db2d143581831921e7e24d782db11fcbf5034f0b8136a9bd66e7e7789d5",
+          "sha256": "60f844c93f03916849bbbed09fc062ecc6e4c13d313ce1f107fa96fba077651e",
+          "sha1": "e79a1a4ff913544c1aaa1f313398733ad6b058a1",
+          "md5": "cfd5c66964e2a2c4441960cef1d5b8d1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "asciidoctorj-groovy-dsl-2.0.2-sources.jar",
+          "url": "asciidoctorj-groovy-dsl-2.0.2-sources.jar",
+          "size": 12058,
+          "sha512": "4a5dd55f055dbc7e56fb1ba8998913014ae625781da4da1515c23997210f36971f6a77dd0e26152ca1ce9f3f7451959f62826a0fcbbc2426c4db8da25d39d1d4",
+          "sha256": "9ede169ee77ce8436d2cd318155db7b166a85e2bc33f0e590623ece21997b7e6",
+          "sha1": "167e759393858334529f9d277c6873c100c3fa0c",
+          "md5": "704baf1257fdad00c3947c17d262d64f"
+        }
+      ]
+    }
+  ]
+}
